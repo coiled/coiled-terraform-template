@@ -49,7 +49,6 @@ https://github.com/coiled/coiled-terraform-template/assets/546891/34d102ff-a99e-
 
 Now we can adopt the VPC, and subnets we created.
 
-
-https://github.com/coiled/coiled-terraform-template/assets/546891/2b142d8f-ed2d-4d7f-b1ba-f945595bc502
+https://github.com/coiled/coiled-terraform-template/assets/546891/92c33217-c241-43bc-93c7-e6eaf14cb8f7
 
 Your Coiled workspace is now ready to create clusters!
