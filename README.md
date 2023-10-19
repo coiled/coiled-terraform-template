@@ -41,14 +41,15 @@ coiled_vpc_id = "vpc-03dc146b0f3568563"
 
 We take `coiled_role_arn` and `coiled_external_id` and fill out the cloud provider setup form.
 
-![add-role-creds](./video/role.mp4)
+https://github.com/coiled/coiled-terraform-template/assets/546891/bd234487-befc-42c2-b6ab-e59b78fc8816
 
 Next we can move to the `Infrastruture` tab and have Coiled adopt the instance profile.
 
-![adopt-global-infra](./video/global_infra.mp4)
+https://github.com/coiled/coiled-terraform-template/assets/546891/34d102ff-a99e-4acc-b903-2d707b79d686
 
-Now we can select the VPC, and subnets we created.
+Now we can adopt the VPC, and subnets we created.
 
-![adopt-region-infra](./video/region.mp4)
+
+https://github.com/coiled/coiled-terraform-template/assets/546891/2b142d8f-ed2d-4d7f-b1ba-f945595bc502
 
 Your Coiled workspace is now ready to create clusters!
