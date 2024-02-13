@@ -179,7 +179,7 @@ data "aws_iam_policy_document" "ongoing_permissions" {
       "logs:FilterLogEvents",
       "logs:GetLogEvents",
     ]
-    resources = [aws_cloudwatch_log_group.cluster_log_group.arn]
+    resources = ["${aws_cloudwatch_log_group.cluster_log_group.arn}:*"]
   }
   statement {
     sid = "ECRAccess"
